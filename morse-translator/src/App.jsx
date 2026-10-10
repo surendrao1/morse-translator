@@ -19,7 +19,7 @@ function App(){
     setMorse(translateToMorse(text))
   }
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center gap-8 p-8">
+    <div className="min-h-screen flex flex-col items-center justify-center gap-8 p-8">
       <UserInput
        text={text}
        setText={setText}
